@@ -11,7 +11,7 @@ from .invoice import (
     InvoiceParseRequest,
     FlashSaleItem,
 )
-from .alerts import AlertSummary
+from .alerts import AlertSummary, NearExpiryItemWithDiscount
 
 __all__ = [
     "InventoryItemBase",
@@ -24,4 +24,5 @@ __all__ = [
     "InvoiceParseRequest",
     "FlashSaleItem",
     "AlertSummary",
+    "NearExpiryItemWithDiscount",
 ]
